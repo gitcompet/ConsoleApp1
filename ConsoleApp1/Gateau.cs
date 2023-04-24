@@ -17,9 +17,9 @@ namespace ConsoleApp1
         public Gateau(float poids, string saveur) {
             Saveur = saveur;
             var toto = Grille[1,1];
-            Console.WriteLine(toto);
+            Console.WriteLine("toto 1:" + toto);
             toto = Grille[0, 0];
-            Console.WriteLine(toto);
+            Console.WriteLine("toto 2:" + toto);
         }
 
         public void Manger()

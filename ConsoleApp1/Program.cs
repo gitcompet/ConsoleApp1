@@ -19,17 +19,17 @@ public class Program {
         Gateau cake = new Gateau(2 , "Point" );
         
         Gateau cake2 = new Gateau(3, "Pac");
-        Console.WriteLine(cake2.Saveur);
-        Console.WriteLine(cake.Saveur);
-                Console.WriteLine(cake.poids);
+        Console.WriteLine("cake2.Saveur 1:" + cake2.Saveur);
+        Console.WriteLine("cake.Saveur 1:" + cake.Saveur);
+                Console.WriteLine("cake.poids 1:" + cake.poids);
         cake.Saveur = "Monstre";
         cake.Manger();
         //		Console.WriteLine(saveur);
-        Console.WriteLine(cake.Saveur);
-        Console.WriteLine(cake.poids);
+        Console.WriteLine("cake.Saveur 2:"  + cake.Saveur);
+        Console.WriteLine("cake.poids 2:" + cake.poids);
 
         Monde monde = new Monde();
-        Console.WriteLine(monde);
+        Console.WriteLine("monde :" + monde);
     }
 
 }
