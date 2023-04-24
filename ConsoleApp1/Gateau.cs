@@ -18,6 +18,8 @@ namespace ConsoleApp1
             Saveur = saveur;
             var toto = Grille[1,1];
             Console.WriteLine(toto);
+            toto = Grille[0, 0];
+            Console.WriteLine(toto);
         }
 
         public void Manger()

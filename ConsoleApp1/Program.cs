@@ -29,6 +29,7 @@ public class Program {
         Console.WriteLine(cake.poids);
 
         Monde monde = new Monde();
+        Console.WriteLine(monde);
     }
 
 }

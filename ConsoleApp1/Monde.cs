@@ -17,7 +17,7 @@ namespace ConsoleApp1
         //        public int[,] Grille2D = new int[1, 1];
         public int[,] Grille2D = new int[20,20];
 
-        public int[][] Grille2Dj = new int[3][];
+        public int[][] Grille2Dj = new int[20][];
         static Monde()
         {
 //            var Grille1D[1] = 1;
