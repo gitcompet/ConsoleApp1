@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         public float poids = 1;
         public string type = "Monstre";
-        public string Saveur;
+        private string Saveur;
 
         public int[,] Grille = { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } };
 
@@ -23,10 +23,17 @@ namespace ConsoleApp1
         }
 
         public void Manger()
-        {        
+        {
             this.poids = 0;
         }
-
+        public string getSaveur()
+        {
+            return this.Saveur;
+        }
+        public void setSaveur(string sav)
+        {
+            this.Saveur=sav;
+        }
     }
 
 }

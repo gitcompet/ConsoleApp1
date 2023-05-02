@@ -18,14 +18,17 @@ namespace ConsoleApp1
         public int[,] Grille2D = new int[30,27];
 
         public int[][] Grille2Dj = new int[30][];
+        
         static Monde()
         {
             //             Grille1D[1] = 1;
             //            var toto = Grille1D[1] ;
             //Console.WriteLine(toto);
-            //             Grille2Dj[1,1] = 1;
+            //Grille2Dj[1][] = 1;
             //            var toto = Grille2D[1,1] ;
             //Console.WriteLine(toto);
         }
     }
+
+
 }
